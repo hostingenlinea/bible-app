@@ -115,3 +115,26 @@ input:focus, select:focus {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+.btn-share {
+  margin-top: 25px;
+  background: transparent;
+  border: 1px solid #1a2a6c;
+  color: #1a2a6c;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.btn-share:hover {
+  background: #1a2a6c;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(26, 42, 108, 0.15);
+}
