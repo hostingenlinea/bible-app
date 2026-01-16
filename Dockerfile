@@ -19,5 +19,5 @@ COPY server/ ./
 # Nota: Asegúrate que tu server.js apunte a ../client/dist o ajusta esta ruta
 COPY --from=build /app/client/dist ../client/dist
 
-EXPOSE 3000
+EXPOSE 5050
 CMD ["node", "index.js"]
