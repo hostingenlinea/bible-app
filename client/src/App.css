@@ -138,3 +138,26 @@ input:focus, select:focus {
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(26, 42, 108, 0.15);
 }
+
+/* --- ESTILOS PARA LA FECHA SEPARADA --- */
+.date-selectors {
+  display: flex;
+  gap: 10px; /* Espacio entre las cajitas */
+  width: 100%;
+}
+
+.select-date {
+  padding: 12px 5px; /* Un poco menos de padding lateral para que quepan */
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.8);
+  background: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  color: #333;
+  width: 100%; /* Para que se distribuyan equitativamente */
+  appearance: none; /* Quita el estilo feo por defecto del navegador */
+  -webkit-appearance: none;
+  text-align: center;
+}
+
+/* Ajuste específico para que el Mes sea un poco más ancho si quieres, 
+   o déjalo igual para uniformidad. Flex se encarga. */
